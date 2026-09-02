@@ -3,40 +3,30 @@
 ## AIM
 To develop a convolutional autoencoder for image denoising application.
 
-## Problem Statement and Dataset
-
-
 ## DESIGN STEPS
 ### STEP 1: 
-
-Write your own steps
+Import PyTorch, MNIST dataset, optimizer, and visualization libraries.
 
 ### STEP 2: 
-
-
+Load the MNIST training and testing datasets and convert images into tensors.
 
 ### STEP 3: 
-
-
+Add random noise to the input images and clip pixel values between 0 and 1.
 
 ### STEP 4: 
-
-
+Build a Convolutional Autoencoder with an Encoder and Decoder.
 
 ### STEP 5: 
-
-
+Use MSELoss to compare the denoised image with the original clean image.
 
 ### STEP 6: 
+Train the model using the Adam optimizer for 5 epochs.
 
-
-
-
+### STEP 7:
+Evaluate the trained model on test images and display Original, Noisy, and Denoised images.
 
 ## PROGRAM
-
 ### Name: Vijiyalakshmi A
-
 ### Register Number: 212225240185
 
 ```python
@@ -163,10 +153,8 @@ visualize_denoising(model, test_loader)
 ### Model Summary
 
 
-
 ## Original vs Noisy Vs Reconstructed Image
 
-![Uploading Screenshot 2026-09-02 202807.png…]()
 
 ## RESULT
-
+The convolutional denoising autoencoder successfully learned to remove noise from MNIST images and reconstructed images close to the original clean images.
