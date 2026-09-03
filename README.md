@@ -151,10 +151,10 @@ visualize_denoising(model, test_loader)
 ### OUTPUT
 
 ### Model Summary
-
+<img width="850" height="570" alt="Screenshot 2026-09-02 202807" src="https://github.com/user-attachments/assets/1e3b721f-0bbe-4eb9-9a7e-e18ed0eb8e66" />
 
 ## Original vs Noisy Vs Reconstructed Image
-
+<img width="1242" height="610" alt="Screenshot 2026-09-02 202745" src="https://github.com/user-attachments/assets/7f059771-3664-4047-aa54-ff200afd89c2" />
 
 ## RESULT
 The convolutional denoising autoencoder successfully learned to remove noise from MNIST images and reconstructed images close to the original clean images.
